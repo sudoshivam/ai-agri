@@ -133,7 +133,7 @@ app = Flask(__name__)
 
 @ app.route('/')
 def home():
-    title = 'Harvestify - Home'
+    title = 'Agriculture AI'
     return render_template('index.html', title=title)
 
 # render crop recommendation form page
@@ -141,7 +141,7 @@ def home():
 
 @ app.route('/crop-recommend')
 def crop_recommend():
-    title = 'Harvestify - Crop Recommendation'
+    title = 'Harves - Crop Recommendation'
     return render_template('crop.html', title=title)
 
 # render fertilizer recommendation form page
@@ -240,7 +240,7 @@ def fert_recommend():
 
 @app.route('/disease-predict', methods=['GET', 'POST'])
 def disease_prediction():
-    title = 'Harvestify - Disease Detection'
+    title = 'Disease Detection'
 
     if request.method == 'POST':
         if 'file' not in request.files:
