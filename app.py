@@ -133,7 +133,7 @@ app = Flask(__name__)
 
 @ app.route('/')
 def home():
-    title = 'Agriculture AI'
+    title = 'PRAYAAS'
     return render_template('index.html', title=title)
 
 # render crop recommendation form page
