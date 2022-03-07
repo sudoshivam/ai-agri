@@ -416,8 +416,8 @@ li > a:only-child:after { content: ''; }
     text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
     font-weight: 600;
     color: #fff;
-    letter-spacing: 10px;
-    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* text-transform: uppercase; */
 }
 .w3layouts-banner-info p {
     max-width: 650px;
