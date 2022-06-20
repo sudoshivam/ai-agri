@@ -64,7 +64,6 @@ disease_model.load_state_dict(torch.load(
     disease_model_path, map_location=torch.device('cpu')))
 disease_model.eval()
 
-
 # Loading crop recommendation model
 
 crop_recommendation_model_path = 'models/RandomForest.pkl'
